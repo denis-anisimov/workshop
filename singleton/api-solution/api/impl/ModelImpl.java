@@ -6,6 +6,6 @@ import api.Model;
  * @author denis
  *
  */
-public class ModelImpl implements Model {
+class ModelImpl implements Model {
 
 }

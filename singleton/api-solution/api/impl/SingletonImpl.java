@@ -7,7 +7,7 @@ import api.Model;
  * @author denis
  *
  */
-public final class SingletonImpl extends AbstractSingleton {
+final class SingletonImpl extends AbstractSingleton {
 
     static {
         setInstance(new SingletonImpl());
