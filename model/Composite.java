@@ -13,4 +13,6 @@ public interface Composite extends Component {
     void add(Component child);
 
     void remove(Component child);
+
+    <T extends Component> List<T> getComponents(Class<T> clazz);
 }

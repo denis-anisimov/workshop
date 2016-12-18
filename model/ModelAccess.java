@@ -10,7 +10,7 @@ public interface ModelAccess {
 
     Model getModel();
 
-    Optional<Component> getRoot();
+    Optional<Composite> getRoot();
 
     Optional<Component> getComponent(Uid uid);
 }
